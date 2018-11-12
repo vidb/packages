@@ -23,10 +23,11 @@
     <webMethodsTestCase name="verifyCompletionAutoOrder">
         <service folder="O2CTests" name="VerifyAutoApproveO2C">
             <input>
-                <file/>
+                <file filename="resources/data/VerifyAutoApproveO2CInput.xml"/>
             </input>
             <expected>
                 <file/>
+                <field operator="==" path="TestStatus" value="Passed"/>
             </expected>
         </service>
     </webMethodsTestCase>
