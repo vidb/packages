@@ -646,8 +646,4 @@
 </MAPSET>
 </MAP>
 </INVOKE>
-
-<INVOKE TIMEOUT="" SERVICE="ISService:newSvcForRecieveOrder" VALIDATE-IN="$none" VALIDATE-OUT="$none">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>
